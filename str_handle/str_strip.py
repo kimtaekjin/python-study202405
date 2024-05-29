@@ -1,0 +1,39 @@
+'''
+* 문자열 공백 제거 메서드
+1. lstrip(): 문자열의 왼쪽 공백만 제거
+2. rstrip(): 문자열의 오른쪽 공백만 제거
+3. strip(): 문자열의 양쪽 공백을 제거.
+'''
+user_id = input('아이디: ')
+
+print(user_id + '님 안녕하세요!')
+print(user_id.lstrip() + '님 안녕하세요!')
+print(user_id.rstrip() + '님 안녕하세요!')
+print(user_id.strip() + '님 안녕하세요!')
+
+
+
+'''
+* 문자열 알파벳 형태 변경 메서드
+1. lower(): 영문 알파벳을 모두 소문자로 변경
+2. upper(): 영문 알파벳을 모두 대문자로 변경
+3. swapcase(): 영문 대소문자를 각각 반대로 변경
+4. capitalize(): 문장의 맨 첫글자만 대문자, 나머지는 소문자.
+5. title(): 각 단어의 맨 첫글자만 대문자, 나머지는 소문자 (공백)
+'''
+
+s = 'GOOD MORning!!! my name is LEE'
+
+print(s)
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print(s.capitalize())
+print(s.title())
+
+
+
+
+
+
+
